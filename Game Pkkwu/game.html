@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Game Menarik</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <h1>Daftar Game</h1>
+    </header>
+    <main>
+        <!-- Daftar game akan ditampilkan di sini -->
+        <div class="game-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/387/387403.png" alt="Game 1">
+            <h2>TetraChaos</h2>
+            <br>
+            <a href="tetris-js-master/index.html">Mainkan</a>
+        </div>
+        
+        <div class="game-card">
+            <img src="https://c0.klipartz.com/pngpicture/66/12/sticker-png-graphics-flappy-bird-computer-icons-sprite-flyer-bird-flappy-bird-artwork-food-drinks-thumbnail.png" alt="Game 3">
+            <h2>Flap-Tastic</h2>
+            <a href="Flap-tastic/flappy-bird-master/index.html">Mainkan</a>
+        </div>
+    </main>
+    </div>
+    <footer>
+        <p>&copy; 2023 Jawir Coorporate</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+<style>
+    /* Reset CSS untuk menghilangkan margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Gaya judul halaman */
+h1 {
+    font-size: 36px;
+}
+
+/* Gaya daftar game */
+main {
+    padding: 20px;
+}
+
+/* Gaya footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.game-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden; /* Mengatur overflow ke hidden */
+}
+
+.game-card img {
+    max-width: 100%;
+    max-height: 200px; /* Mengatur tinggi maksimum gambar */
+    height: auto; /* Menghindari distorsi gambar */
+    
+}
+
+.game-card h2 {
+    font-size: 24px;
+}
+
+.game-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.game-card a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Mengisi tinggi minimum sampai layar penuh */
+}
+
+main {
+    flex-grow: 1; /* Membuat main mengisi sisa tinggi yang tersedia */
+}
+
+
+</style>
